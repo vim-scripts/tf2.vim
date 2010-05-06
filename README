@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3085
+
+Extremely basic syntax highlighting of Team Fortress 2 scripts (.cfg). Pretty much a find/replace of the original quake.vim with the custom color support removed.
