@@ -35,9 +35,10 @@ syn cluster tf2Commands		contains=tf2ToggleCommand,tf2Command
 syn keyword tf2ToggleCommand	+attack -attack +attack2 -attack2
 syn keyword tf2ToggleCommand	+left -left +right -right
 syn keyword tf2ToggleCommand	+forward -forward +back -back
-syn keyword tf2Command			cl_showfps cl_cmdrate cl_drawhud
-syn keyword tf2Command			alias bind cc_emit closecaption exec
-syn keyword tf2Command			jpeg_quality play zoom_sensitivity_ratio
+syn keyword tf2Command			cl_showfps cl_cmdrate cl_drawhud cl_interp r_drawviewmodel
+syn keyword tf2Command			alias bind cc_emit closecaption exec mat_queue_mode
+syn keyword tf2Command			jpeg_quality play voicemenu zoom_sensitivity_ratio
+syn keyword tf2Command			slot1 slot2 slot3 slot4 slot5 slot6 slot7 slot8 slot9 slot0
 
 hi def link tf2Comment      Comment
 hi def link tf2Todo         Todo
